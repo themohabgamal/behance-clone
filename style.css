@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@500&family=Roboto:wght@700&family=Ubuntu:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.left-section {
+    display: flex;
+
+}
+
+.left-section .logo {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.left-section ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#left-sec-first-ele {
+    border-bottom: 3px solid black;
+}
+
+.left-section ul li {
+    margin-bottom: -3px;
+    padding-left: 10px;
+}
+
+.left-section ul li a {
+    text-decoration: none;
+    color: #1d1d1d;
+    font-size: 19px;
+    padding: 7px;
+    padding-bottom: 13px;
+    font-size: 18px;
+
+}
+
+.left-section ul li a:hover {
+    border-bottom: 3px solid black;
+}
+
+.mid-section {
+
+    display: flex;
+    align-items: center;
+    margin-left: -9%;
+    border: 1px solid #a19f9f;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #f7f7f7;
+
+}
+
+.mid-section form {
+    width: 300px;
+    display: flex;
+
+}
+
+.mid-section form input {
+    border: none;
+    background-color: #f7f7f7;
+}
+
+.mid-section form i {
+    color: #a19f9f;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section button {
+    margin-right: 30px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background: transparent;
+    font-family: "Roboto";
+    cursor: pointer;
+}
+
+.right-section button:hover {
+    background-color: #a19f9f ;
+}
+
+.right-section i {
+    padding: 0 4px;
+    cursor: pointer;
+    width: 21px;
+    margin-right: 12px;
+}
+
+.right-section .mesg {
+    margin-left: ;
+}
